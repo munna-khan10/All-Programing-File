@@ -26,7 +26,7 @@ a{
 }
 .searcharea{
     position: fixed;
-    right: 90px;
+    right: 150px;
     top: 50px;
     width: 150px;
     height: 40px;
@@ -40,7 +40,7 @@ a{
     border: 1px solid rgba(167,158,245,0.5);
 }
 .searchbox input{
-   width: 90px;
+   width: 100px;
     height: 20px;
     border: none;
     outline: none;
@@ -49,4 +49,42 @@ a{
     font-size: 1rem;
     padding: 0px 10px;
     font-family: Arial;
+}
+.searchbox input::placeholder{
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+.img1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15% , -50%);
+}
+img{
+    height: 300px;
+}
+.sectiontext{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.sectiontext h5, h3{
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 40px;
+    text-shadow: 2px 2px 10px rgba(167, 158, 245,0.5);
+    letter-spacing: 2px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    
+}
+.sectiontext h5{
+    font-size: 1.8rem;
+    color: aqua;
+}
+.sectiontext h3{
+    font-size: 2rem;
+    display: flex;
 }
